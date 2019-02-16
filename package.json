@@ -1,0 +1,49 @@
+{
+  "name": "pho",
+  "version": "1.0.0",
+  "description": "The CLI of Fuse Open",
+  "main": "bin/fuse-open.js",
+  "bin": {
+    "fuseopen": "bin/fuse-open.js",
+    "fuse-open": "bin/fuse-open.js",
+    "fo": "bin/fuse-open.js"
+  },
+  "scripts": {
+    "start": "node bin/fuse-open.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewEQ/Pho.git"
+  },
+  "keywords": [
+    "Fuse-Open",
+    "FuseOpen",
+    "FuseOpenCLI",
+    "development",
+    "tools",
+    "open-source",
+    "cross-platform",
+    "mobile",
+    "app",
+    "development",
+    "tool",
+    "suite",
+    "framework",
+    "android",
+    "ios",
+    "application",
+    "mobile",
+    "SDK"
+  ],
+  "author": "Fuse Open",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewEQ/Pho/issues"
+  },
+  "homepage": "https://github.com/AndrewEQ/Pho#readme",
+  "dependencies": {
+    "@fuse-open/uno": "^1.11.0",
+    "commander": "^2.19.0"
+  }
+}
